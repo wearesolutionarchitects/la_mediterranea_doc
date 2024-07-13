@@ -53,7 +53,7 @@ Durch die zentrale Speicherung in einer Datenbank können die Daten sowohl gesic
 Mitarbeitenden ausgewertet werden. Wichtigste Verbesserungen sind hier die ständige Verfügbarkeit
 der Reservierungsmöglichkeit, die Zeit- und Aufwandseinsparung bei den Mitarbeitenden und eine
 Sicherung der Reservierungsdaten. Die gute Kundenbindung soll verbessert werden und neue Kundinnen
-und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein "Customer-Relation-Management-System"
+und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM
 entwickelt werden.
 
 ### 2.4. "make or buy"-Entscheidung
@@ -99,7 +99,7 @@ So entstanden den Umschulenden durch die Entwicklung der Software keine zusätzl
 
 Als Zielplattformen wurde Microsoft Windows 11 gewählt, da alle vorhanden PCs in der Bar/dem Restaurant mit Windows 11 als Betriebssystem arbeiten. Die Nutzung der Weboberfläche ist Plattformunabhängig.
 
-Optional ist eine Umsetzung auf die gängige weitere Betriebssysteme wie MacOS, iOS, Linux, Android.
+Optional ist eine Umsetzung auf die gängigen weiteren Betriebssysteme wie MacOS, iOS, Linux, Android.
 
 Als Programmiersprachen wurde sich für Python, PHP, HTML, CSS und (My)SQL entschieden, da für dies Programmiertätigkeiten bereits genug know-how vorhanden bzw. aktuell im Aufbau ist. 
 
@@ -202,16 +202,21 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 |Begriff|Erklärung|
 |---|---|
+|Android|Android ist ein Betriebssystem für mobile Geräte, das von Google entwickelt wurde und auf dem Linux-Kernel basiert|
 |Black-Box-Test|Methode des Softwaretests, bei der die Tester die Anwendung ohne Kenntnissedes Programmcodes die Funktionalität überprüfen|
 |CSS| Cascading Style Sheets ist eine der Kernsprachen des World Wide Webs. Mit CSS können Darstellungsanweisungen, vor allem im Einsatz mit HTML, weitgehend von Inhalten getrennt werden|
-|DBMS|Das Datenbankmanagementsystem ist eine (je nach Anwendung auf Webserver oder Workstation installierte) Software, die sich um das Speichern, die Organisation und die Zugriffsrechte der Datenbasis der Datenbank(en) kümmert|
+|CRM|Kundenbeziehungsmanagement (CRM) ist ein System zur Verbesserung der Geschäftsbeziehungen durch die Analyse von Kundendaten|
+|DBMS|Datenbankmanagementsystem ist eine (je nach Anwendung auf Webserver oder Workstation installierte) Software, die sich um das Speichern, die Organisation und die Zugriffsrechte der Datenbasis der Datenbank(en) kümmert|
 |GUI|Graphical User Interface, die grafische Benutzeroberfläche einer Software|
 |HTML|Hypertext Markup Language ist eine textbasierte Auszeichnungssprache und Kernsprache des World Wide Web. HTML-Dokumente werden von Webbrowsern dargestellt|
+|iOS|iOS ist ein Betriebssystem, das von Apple für seine mobilen Geräte wie iPhone und iPad entwickelt wurde|
+|MacOS|MacOS ist ein Betriebssystem von Apple, das speziell für ihre Macintosh-Reihe von Personalcomputern und Workstations entwickelt wurde|
 |MVC|Model View Controller ist ein Entwurfsmuster zur logischen Unterteilung von Programmcode zur besseren Lesbarkeit, Erweiterbarkeit und Wartbarkeit|
 |OOP|Objektorientierte Programmierung ist ein Programmierprinzip, bei dem Daten und Programmcode in übersichtliche, wiederverwendbare Module gekapselt werden. Dies soll Programmieraufwand reduzieren, die Lesbarkeit des Codes erhöhen und helfen Fehler zu vermeiden|
 |PDO|Die PHP Data Objects-Erweiterung ist eine Schnittstelle, um mit PHP auf Datenbanken zuzugreifen|
 |PHP|PHP (Hypertext Preprocessor) ist eine Skriptsprache für die Webprogrammierung. PHP-Code wird hauptsächlich zur Erstellung dynamischer Webseiten verwendet|
 |phpMyAdmin|Freie Websoftware zur Administration von MySQL-Datenbanken. Die Software ist in PHP programmiert, daher der Name|
+|Python|Python ist eine interpretierte, interaktive und objektorientierte Programmiersprache, die sich durch ihre klare und lesefreundliche Syntax auszeichnet und häufig für Webentwicklung, Datenanalyse, maschinelles Lernen und viele andere Arten von Softwareentwicklung verwendet wird|
 |Query|Eine spezifisch gestellte Anfrage an die Datenbank zum gezielten Auslesen und Extrahieren aus Datenbanken|
 |Skriptsprache|Programmiersprache, mit der meist kleine Anwendungen oder Anweisungsfolgen erstellt werden und nicht mit einem Compiler, sondern von einem Interpreter direkt zur Laufzeit ausgeführt werden|
 |SQL|Structured Query Language, Programmiersprache für den Zugriff auf Datenbanksysteme|
@@ -223,7 +228,20 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 ### 6.3 Darstellungsverzeichnis
 
+* Seite 3: Tabelle mit der Zeitplanung der Projektphasen
+
 ### 6.4 Vergleich zwischen Zeitplanung und Zeitbedarf
+
+|Projektphase|Geplante Dauer in Stunden|Tatsächliche Dauer in Stunden|
+|---|---|---|
+|Analysephase|24||
+|Planungsphase / Entwurfsphase|32||
+|Entwicklungsphase|216||
+|Testphase|16||
+|Fehleranalyse|8||
+|Vorstellung und Abnahme|4||
+|Projektdokumentation|20||
+|__Gesamtdauer__|__320__||
 
 ### 6.5 Vergleich zwischen über Papierkalender verwelteten Reservierung und der mit Softwarelösung bearbeiteten Reservierungen
 
@@ -231,4 +249,45 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 ### 6.7 ER- und UML-Diagramme
 
+#### 6.7.1 Entity Relationship Model
+
+#### 6.7.2 Programmablaufplan
+
+#### 6.7.3 UML-Anwendungsfalliagramm
+
+#### 6.7.4 UML-Klassendiagramm
+
 ### 6.8 Quellcode
+
+### 6.8.1 PHP-Script zum Abruf der Cocktails
+
+```php
+<?php
+    $servername = "localhost";
+    $username = "********";
+    $password = "********";
+    $dbname = "********";
+
+    // Erstellung der Datenbank-Verbindung
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // Überprüfung der Verbindung
+    if ($conn->connect_error) {
+        die("Verbindung fehlgeschlagen: " . $conn->connect_error);
+    }
+    $sql = "SELECT * FROM cocktails";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        // Ausgabe der Daten jeder Zeile
+        while($row = $result->fetch_assoc()) {
+            echo "<p>#". $row["cocktail_id"]. " " . $row["cocktail_name"]. " | ";
+            echo $row["cocktail_description"]. " | ";
+            echo "€ ". $row["price"]. "/ ". $row["volume"]. "l</p>";
+        }
+    } else {
+        echo "0 Ergebnisse";
+    }
+    $conn->close();
+?>
+```
