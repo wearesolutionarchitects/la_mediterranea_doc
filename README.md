@@ -150,7 +150,7 @@ und die Abfragen in diese zu integrieren.
 
 #### 4.4.? Benutzerfreundlichkeit
 
-* Zum Zecke der Benutzeroberfläche wurde nach Rückmeldung der Anwender noch an Versserungen der Eingabemasken garbeitet.
+* Zum Zecke des besseren Anwenderlebnis mit den Benutzeroberflächen wurde nach Rückmeldung der Anwender noch Verbesserungen an den Eingabemasken vorgenommen.
 
 ### 4.5 Qualitätsmanagement
 
