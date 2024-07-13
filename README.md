@@ -6,7 +6,7 @@ Prüfungsbewerber : Hiba, Irina, Puya und Heiko
 
 Die folgende Projektdokumentation wurde im Rahmen der Umschulung als virtuelles Laborprojekt erstellt,
 welches die Verfasser während Iherer Umschulung zur Fachinformatikerin /zum Fachinformatiker Anwendungsentwicklung
-solbstständig durchgeführt hat. Inititator und Projektbegleiter war unser Dozent Dr. Holger Kramer - welcher uns im Projektmanagement, in der Programmierung von Python und der objektorierntierten Programmierung unterrichtet.
+solbstständig durchgeführt hat. Inititator und Projektbegleiter war unser Dozent Dr. Holger Kramer - welcher uns im [Projektmanagement][1], in der Programmierung von [Python][2] und der [objektorientierten Programmierung][3] unterrichtet.
 
 ### 1.1 Projektumfeld
 
@@ -16,7 +16,7 @@ Bars, Restaurants, Diskotheken und Veranstaltungen wie Konzerte oder DJ-Events.
 
 ### 1.2 Projektumsetzung
 
-Die Projektumsetzung fand online statt, die Projektteilnehmer nutzen Microsoft Teams und GitHub zur
+Die Projektumsetzung fand online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur
 gemeinsamen Durchführung der Programmiertätigkeiten. Sämtliche Programmiertätigkeiten sowie Tests
 und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
 
@@ -225,6 +225,12 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 |White-Box-Test| Methode des Softwaretests, bei der die Tester die Anwendung mit Einblick in den Programmcode überprüfen|
 
 ### 6.2 Literaturverzeichnis
+
+[1]:<https://de.wikipedia.org/wiki/Projektmanagement>
+[2]:<https://de.wikipedia.org/wiki/Python>
+[3]:<https://de.wikipedia.org/wiki/Objektorientierte_Programmierung>
+[4]:<https://de.wikipedia.org/wiki/Microsoft_Teams>
+[5]:<https://de.wikipedia.org/wiki/Microsoft_Teams>
 
 ### 6.3 Darstellungsverzeichnis
 
