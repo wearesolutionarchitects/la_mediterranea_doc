@@ -1,10 +1,12 @@
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
 
+Prüfungsbewerber : Hiba, Irina, Puya und Heiko
+
 ## 1. Projekteinführung
 
 Die folgende Projektdokumentation wurde im Rahmen der Umschulung als virtuelles Laborprojekt erstellt,
 welches die Verfasser während Iherer Umschulung zur Fachinformatikerin /zum Fachinformatiker Anwendungsentwicklung
-solbstständig durchgeführt hat. Inititator und Projektbegleiter war unser Dozent Dr. Holger Kramer - welcher uns im Projektmanagement, in der Programmierung von Python und der objektorierntierten Programmierung unterricht.
+solbstständig durchgeführt hat. Inititator und Projektbegleiter war unser Dozent Dr. Holger Kramer - welcher uns im Projektmanagement, in der Programmierung von Python und der objektorierntierten Programmierung unterrichtet.
 
 ### 1.1 Projektumfeld
 
@@ -145,3 +147,69 @@ und die Abfragen in diese zu integrieren.
 * Beim Start der App soll direkt eine Übersicht der aktuellen Reservierungen angezeigt werden
 
 * Beim Aufruf der Reservierungs-Seite auf der Website soll eine auf die Kundensicht angepasste Übersicht der Reservierungsmöglichkeiten angezeigt werden.
+
+#### 4.4.? Benutzerfreundlichkeit
+
+* Zum Zecke der Benutzeroberfläche wurde nach Rückmeldung der Anwender noch an Versserungen der Eingabemasken garbeitet.
+
+### 4.5 Qualitätsmanagement
+
+#### 4.5.1 Testphase
+
+Der Großteil der Testphase wurde vom Entwicklerteam selbst vorwiegend während der Entwicklungsphase
+in White-Box-Tests durchgeführt. Nach Fertigstellung der Anwendung fanden Black-Box-Tests durch
+weitere Umschülerinnen und Umschüler so wie Freunde, Bekannte und Familienmitglieder statt, welche 
+aber keine weiteren Programmfehler zu Tage förderten.
+
+#### 4.5.2 Fehleranalyse / -Korrektur
+
+Da die Software von den Autoren bereits während der Entwicklung regelmäßig geprüft und korrigiert wurde,
+fällt dieser Punkt recht knapp aus. Gründe für Abstürze wurden während der Entwicklungszeit fortwährend behoben,
+während der Testphase liefen sowohl die Windows-Desktop-App als auch die Web-App recht stabil.
+
+...
+
+## 5. Abschuluss
+
+### 5.1 Soll-/Ist-Vergleich
+
+Die Projektdauer konnte im Großen und Ganzen eingehalten werden, im Detail der veranschlagten Zeitplanung gab es wie
+erwartet Abweichungen. Dadurch, dass während des Entwicklungsprozesses Material aus den Aufgaben im Unterreicht
+verwendet werden konnte und bereits viel getestet wurde, verschob sich der anteilige Zeitbedarf von der reinen
+Testphase hin zur Entwicklungs- und Dokomentationsphase.
+
+### 5.2 Kosten- und Nutzenanalyse
+
+Eine Kosten- und Nutzenrechnung sowie eine Amortisationsrechnung können in diesem Fall nicht erstellt
+werden. Kosten für das Projekt werden mit den investierten Arbeitsstunden außerhalb der normalen
+Umschulungszeiten in Relation gesetzt und Preise werden nicht kalkuliert, da es sich um ein reine
+Labor-Projekt handelt. Auch dadurch, dass man den Mehrwert im Vergleich zur vorhergehenden Arbeitsweise
+nicht direkt in Zahlen gemessen werden kann, wird auf diese Rechnungen verzichtet.
+
+Der Nutzen des Online-Reservierungssystem liegt ganz in einer höheren Verfügbarkeit (24h/7d) für Kundinnen,
+Kunden und Mitarbeitende.
+
+### 5.3 Zukunftsausblick
+
+Das Online-Reservierungssystem ist die Baisis für die Digitalierung, hieraus kann zukünftig eine Kundendatenbank
+entwickelt werden um die Kunden z. B. durch Einwilligung zu einem Newsletter über aktuelle Entwicklungen (geänderte
+Öffnungszeiten, aktualisierte Speisekarten und Angebote) zu informieren. Für das Projekt-Team ist damit die Basis
+als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
+
+## 6. Anhang
+
+### 6.1 Glossar
+
+### 6.2 Literaturverzeichnis
+
+### 6.3 Darstellungsverzeichnis
+
+### 6.4 Vergleich zwischen Zeitplanung und Zeitbedarf
+
+### 6.5 Vergleich zwischen über Papierkalender verwelteten Reservierung und der mit Softwarelösung bearbeiteten Reservierungen
+
+### 6.6 Benutzerdokumentation
+
+### 6.7 ER- und UML-Diagramme
+
+### 6.8 Quellcode
