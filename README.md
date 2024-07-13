@@ -200,6 +200,25 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 ### 6.1 Glossar
 
+|Begriff|Erklärung|
+|---|---|
+|Black-Box-Test|Methode des Softwaretests, bei der die Tester die Anwendung ohne Kenntnissedes Programmcodes die Funktionalität überprüfen|
+|CSS| Cascading Style Sheets ist eine der Kernsprachen des World Wide Webs. Mit CSS können Darstellungsanweisungen, vor allem im Einsatz mit HTML, weitgehend von Inhalten getrennt werden|
+|DBMS|Das Datenbankmanagementsystem ist eine (je nach Anwendung auf Webserver oder Workstation installierte) Software, die sich um das Speichern, die Organisation und die Zugriffsrechte der Datenbasis der Datenbank(en) kümmert|
+|GUI|Graphical User Interface, die grafische Benutzeroberfläche einer Software|
+|HTML|Hypertext Markup Language ist eine textbasierte Auszeichnungssprache und Kernsprache des World Wide Web. HTML-Dokumente werden von Webbrowsern dargestellt|
+|MVC|Model View Controller ist ein Entwurfsmuster zur logischen Unterteilung von Programmcode zur besseren Lesbarkeit, Erweiterbarkeit und Wartbarkeit|
+|OOP|Objektorientierte Programmierung ist ein Programmierprinzip, bei dem Daten und Programmcode in übersichtliche, wiederverwendbare Module gekapselt werden. Dies soll Programmieraufwand reduzieren, die Lesbarkeit des Codes erhöhen und helfen Fehler zu vermeiden|
+|PDO|Die PHP Data Objects-Erweiterung ist eine Schnittstelle, um mit PHP auf Datenbanken zuzugreifen|
+|PHP|PHP (Hypertext Preprocessor) ist eine Skriptsprache für die Webprogrammierung. PHP-Code wird hauptsächlich zur Erstellung dynamischer Webseiten verwendet|
+|phpMyAdmin|Freie Websoftware zur Administration von MySQL-Datenbanken. Die Software ist in PHP programmiert, daher der Name|
+|Query|Eine spezifisch gestellte Anfrage an die Datenbank zum gezielten Auslesen und Extrahieren aus Datenbanken|
+|Skriptsprache|Programmiersprache, mit der meist kleine Anwendungen oder Anweisungsfolgen erstellt werden und nicht mit einem Compiler, sondern von einem Interpreter direkt zur Laufzeit ausgeführt werden|
+|SQL|Structured Query Language, Programmiersprache für den Zugriff auf Datenbanksysteme|
+|SQL-Injection|Angriffstechnik, mit der Sicherheitslücken in Anwendungen ausgenutzt werden, um Daten in Datenbanken auszuspähen oder zu manipulieren|
+|URL|Uniform Resource Locator, Adressierungsform mit eindeutiger Bezeichnung für Internetadressen|
+|White-Box-Test| Methode des Softwaretests, bei der die Tester die Anwendung mit Einblick in den Programmcode überprüfen|
+
 ### 6.2 Literaturverzeichnis
 
 ### 6.3 Darstellungsverzeichnis
