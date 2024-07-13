@@ -230,7 +230,7 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 [2]:<https://de.wikipedia.org/wiki/Python>
 [3]:<https://de.wikipedia.org/wiki/Objektorientierte_Programmierung>
 [4]:<https://de.wikipedia.org/wiki/Microsoft_Teams>
-[5]:<https://de.wikipedia.org/wiki/Microsoft_Teams>
+[5]:<(https://de.wikipedia.org/wiki/GitHub>
 
 ### 6.3 Darstellungsverzeichnis
 
