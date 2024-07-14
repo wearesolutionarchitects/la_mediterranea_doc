@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
 
 ![La Mediterranea][10]
@@ -8,7 +12,7 @@ Prüfungsbewerber : Hiba, Irina, Puya und [Heiko Fanieng][21]
 
 Die folgende Projektdokumentation wurde als virtuelles Laborprojekt erstellt, welches die Verfasser während ihrer Umschulung zur Fachinformatikerin/zum Fachinformatiker Anwendungsentwicklung selbstständig durchgeführt haben.  
 
-Inititator und Projektbegleiter ist unser Dozent [Dr. Holger Kramer][21] - welcher uns im [Projektmanagement][1], in der Programmierung von [Python][2] und der [objektorientierten Programmierung][3] unterrichtet.
+Inititator und Projektbegleiter ist unser Dozent [Dr. Holger Kramer][20] - welcher uns im [Projektmanagement][1], in der Programmierung von [Python][2] und der [objektorientierten Programmierung][3] unterrichtet.
 
 ### 1.1 Projektumfeld
 
@@ -115,7 +119,11 @@ Das Projekt basiert auf dem Architekturprinzip MVC (Model-View-Controller). Die 
 
 ## 4. Projektentwicklung
 
+...
+
 ### 4.1 Datenerhebung
+
+...
 
 #### 4.1.1 Datenermittlung
 
@@ -133,8 +141,7 @@ Die Analyse der Kundenddaten gestalte sich aufwendiger, da diese nur in analoger
 
 ### 4.3 SQL Abfrage konzipieren und als PHP-Script in besthehnde Website integrieren
 
-Für die zu entwickelnde Datenbank sind die vorhandenen HTML-Seiten auf PHP umzustellen
-und die Abfragen in diese zu integrieren.
+Für die zu entwickelnde Datenbank sind die vorhandenen HTML-Seiten auf PHP umzustellen und die Abfragen in diese zu integrieren.
 
 ### 4.4 Anwendungsentwicklung mit Python
 
@@ -160,10 +167,9 @@ und die Abfragen in diese zu integrieren.
 
 #### 4.5.1 Testphase
 
-Der Großteil der Testphase wurde vom Entwicklerteam selbst vorwiegend während der Entwicklungsphase
-in White-Box-Tests durchgeführt. Nach Fertigstellung der Anwendung fanden Black-Box-Tests durch
-weitere Umschülerinnen und Umschüler so wie Freunde, Bekannte und Familienmitglieder statt, welche 
-aber keine weiteren Programmfehler zu Tage förderten.
+Der Großteil der Testphase wurde vom Entwicklerteam selbst vorwiegend während der Entwicklungsphase in White-Box-Tests durchgeführt.  
+
+Nach Fertigstellung der Anwendung fanden Black-Box-Tests durch weitere Umschülerinnen und Umschüler so wie Freunde, Bekannte und Familienmitglieder statt, welche aber keine weiteren Programmfehler zu Tage förderten.
 
 #### 4.5.2 Fehleranalyse / -Korrektur
 
@@ -257,7 +263,11 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 ### 6.5 Vergleich zwischen über Papierkalender verwelteten Reservierung und der mit Softwarelösung bearbeiteten Reservierungen
 
+...
+
 ### 6.6 Benutzerdokumentation
+
+...
 
 ### 6.7 ER- und UML-Diagramme
 
