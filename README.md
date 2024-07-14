@@ -259,7 +259,11 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 #### 6.7.1 Entity Relationship Model
 
+![ERM][11]
+
 #### 6.7.2 Programmablaufplan
+
+![PAP][12]
 
 #### 6.7.3 UML-Anwendungsfalliagramm
 
@@ -301,3 +305,5 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 ```
 
 [10]:img/dJ_beach_setup.jpg
+[11]:img/bar_restaurant.png
+[12]:img/pap.png
