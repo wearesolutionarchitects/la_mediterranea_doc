@@ -1,5 +1,7 @@
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
 
+![La Mediterranea][10]
+
 Prüfungsbewerber : Hiba, Irina, Puya und Heiko
 
 ## 1. Projekteinführung
@@ -297,3 +299,5 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
     $conn->close();
 ?>
 ```
+
+[10]:img/dJ_beach_setup.jpg
