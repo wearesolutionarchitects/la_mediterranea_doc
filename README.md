@@ -2,77 +2,79 @@
 
 ![La Mediterranea][10]
 
-Prüfungsbewerber : Hiba, Irina, Puya und Heiko
+Prüfungsbewerber : Hiba, Irina, Puya und [Heiko Fanieng][21]
 
 ## 1. Projekteinführung
 
-Die folgende Projektdokumentation wurde im Rahmen der Umschulung als virtuelles Laborprojekt erstellt,
-welches die Verfasser während Iherer Umschulung zur Fachinformatikerin /zum Fachinformatiker Anwendungsentwicklung
-solbstständig durchgeführt hat. Inititator und Projektbegleiter war unser Dozent Dr. Holger Kramer - welcher uns im [Projektmanagement][1], in der Programmierung von [Python][2] und der [objektorientierten Programmierung][3] unterrichtet.
+Die folgende Projektdokumentation wurde als virtuelles Laborprojekt erstellt, welches die Verfasser während ihrer Umschulung zur Fachinformatikerin/zum Fachinformatiker Anwendungsentwicklung selbstständig durchgeführt haben.  
+
+Inititator und Projektbegleiter ist unser Dozent [Dr. Holger Kramer][21] - welcher uns im [Projektmanagement][1], in der Programmierung von [Python][2] und der [objektorientierten Programmierung][3] unterrichtet.
 
 ### 1.1 Projektumfeld
 
-Das multilinguale und multikulturelle Entwicklerteam aus 4 Nationen ist spezialiesiert auf individuelle
-Kundenlösungen in der Gastronomie und der Veranstaltungstechnik. Im Angebot befinden sich Lösungen für
-Bars, Restaurants, Diskotheken und Veranstaltungen wie Konzerte oder DJ-Events.
+Unser multilinguales und multikulturelles Entwicklerteam aus 4 Nationen ist spezialisiert auf individuelle Kundenlösungen in der Gastronomie und der Veranstaltungstechnik.  
+
+Im Angebot befinden sich Lösungen für Bars, Restaurants, Diskotheken und Veranstaltungen wie Konzerte oder DJ-Events.
 
 ### 1.2 Projektumsetzung
 
-Die Projektumsetzung fand online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur
-gemeinsamen Durchführung der Programmiertätigkeiten. Sämtliche Programmiertätigkeiten sowie Tests
-und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
+Die Projektumsetzung finde online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
+
+Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
 
 ### 1.3 Projektziel
 
-Es soll eine Anwendung zur Verfügung gestellt werden, in welcher sich Kunden auf einfache Weise
-über die Website des Auftraggebers einen Tisch im Restaurantsbereich reservieren können. Zusätzlich
-sollen die Reservierung über eine App auf dem Restaurant-Desktop über entsprechende Masken bearbeitet
-werden können. Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und entsprechender
-Auswahl- und Bearbeitungsmöglichkeit (Web und App) für die Benutzer.
+Es soll eine Anwendung zur Verfügung gestellt werden, in welcher sich Kunden auf einfache Weise über die Website des Auftraggebers einen Tisch im Restaurantsbereich reservieren können.  
+
+Zusätzlich sollen die Reservierung über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
+
+Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und entsprechender Auswahl- und Bearbeitungsmöglichkeit (Web und App) für die Benutzer.
 
 ## 2. Projektanalyse
 
 ### 2.1 Ist-Analyse
 
-Die Reserverierungen werden analog (per Telefon/Im Restaurant) entgegengenommen und auf einem Papierkalender
-im Empfangsbereich eingetragen. Hierdurch ist die Bearbeitung der Reservierungen nur an diesem zentralen Platz möglich.
+Die Reserverierungen werden analog (per Telefon/Im Restaurant) entgegengenommen und auf einem Papierkalender im Empfangsbereich eingetragen.  
+
+Hierdurch ist die Bearbeitung der Reservierungen nur an diesem zentralen Platz möglich.
 
 ### 2.2 Soll-Analyse
 
-Mit einem Online-Reservierungssystem soll eine Terminerfassung bzw. Vergabe sowohl von Kunden als auch
-Mitarbeitenden dezentral möglich sein. Hierzu soll die Software die Möglichkeit bieten, verfügbare Plätze
-auswählen zu können dieses zu reservieren und auch zu stornieren.
+Mit einem Online-Reservierungssystem soll eine Terminerfassung bzw. Vergabe sowohl von Kunden als auch Mitarbeitenden dezentral möglich sein.  
+
+Hierzu soll die Software die Möglichkeit bieten, verfügbare Plätze auswählen zu können diese sowoh zu reservieren als auch zu stornieren.
 
 ### 2.3. Projektbegründung
 
 Die Kunden von La Meditteranea können ausschließlich per Telefon oder im Gespräch mit den Mitarbeitenden
 Reservierungen durchführen. Reservierungen sind daher nur während der Öffnungszeiten möglich.
 
-Durch die Softwarelösung können nun sowohl Kundinnen und Kunden als auch die Mitarbeitenden rund um die
-Uhr und an jedem Tag der Woche sowohl Reservierungen vornehmen als auch bearbeiten bzw. stornieren.
+Durch die Softwarelösung können nun sowohl Kundinnen und Kunden als auch die Mitarbeitenden rund um die Uhr und an jedem Tag der Woche sowohl Reservierungen vornehmen als auch bearbeiten bzw. stornieren.
 
-Durch die zentrale Speicherung in einer Datenbank können die Daten sowohl gesichert als auch von den
-Mitarbeitenden ausgewertet werden. Wichtigste Verbesserungen sind hier die ständige Verfügbarkeit
-der Reservierungsmöglichkeit, die Zeit- und Aufwandseinsparung bei den Mitarbeitenden und eine
-Sicherung der Reservierungsdaten. Die gute Kundenbindung soll verbessert werden und neue Kundinnen
+Durch die zentrale Speicherung in einer Datenbank können die Daten sowohl gesichert als auch von den Mitarbeitenden ausgewertet werden.  
+
+Wichtigste Verbesserungen sind hier die ständige Verfügbarkeit der Reservierungsmöglichkeit, die Zeit- und Aufwandseinsparung bei den Mitarbeitenden und eine Sicherung der Reservierungsdaten.  
+
+Die gute Kundenbindung soll verbessert werden und neue Kundinnen
 und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM
 entwickelt werden.
 
 ### 2.4. "make or buy"-Entscheidung
 
-Bei diesem Projekt handelt es sich um eine Individuallösung. Nachdem diverse Tools und Programme
-zum Reservieren getestet und verglichen wurden, wurde sich aus wirtschaftlichen und individuellen Gründen
-für eine Eigenentwicklung entschieden. Die getesteten Tools entsprachen nicht den Vorstellungen an
-die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht waren und wären daher auch finanziell
-gesehen nicht sinnvoll gewesen. Ein großer Vorteil ist hierbei auch die individuell anpassbare
-Schnittstelle zur internen MySQL-Datenbank, welche bereits die Inhalte für die Website ausliefert.
+Bei diesem Projekt handelt es sich um eine Individuallösung. Nachdem diverse Tools und Programme zum Reservieren getestet und verglichen wurden, wurde sich aus wirtschaftlichen und individuellen Gründen für eine Eigenentwicklung entschieden.  
+
+Die getesteten Tools entsprachen nicht den Vorstellungen an die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht waren und wären daher auch finanziell
+gesehen nicht sinnvoll gewesen.  
+
+Ein großer Vorteil ist hierbei auch die individuell anpassbare Schnittstelle zur internen MySQL-Datenbank, welche bereits die Inhalte für die Website ausliefert.
 
 ## 3 Projektplanung
 
 ### 3.1. Projektphasen
 
-Dem Projektteam stehen analog den IHK Vorgaben 80 Stunden Arbeitszeit pro Person zur Verfügung.
-Die Durchführung des Projektes findet innerhalb des ersten Jahres der Umschulung statt. Die Stunden werden über diesen Zeitraum verteilt, da "im Tagesgeschäft" mehrere Unterrichtseinheiten absolviert werden und dadurch zusätzliche Projekte bearbeitet werden müssen.
+Dem Projektteam stehen analog den IHK Vorgaben 80 Stunden Arbeitszeit pro Person zur Verfügung. Die Durchführung des Projektes findet innerhalb des ersten Jahres der Umschulung statt.  
+
+Die Stunden werden über diesen Zeitraum verteilt, da "im Tagesgeschäft" mehrere Unterrichtseinheiten absolviert werden und dadurch noch zusätzliche Projekte bearbeitet werden müssen.
 
 |Projektphase|Geplante Dauer in Stunden|
 |---|---|
@@ -87,23 +89,23 @@ Die Durchführung des Projektes findet innerhalb des ersten Jahres der Umschulun
 
 ### 3.2 Ressourcenplanung
 
-Die Projektumsetzung fand unter online unter Nutzung von Microsoft Teams und GitHub sowie den Endgeräten der Umschulenden Hiba, Irina, Puya und Heiko statt.
+Die Projektumsetzung findet online unter Nutzung von Microsoft Teams und GitHub sowie den Endgeräten der Umschulenden Hiba, Irina, Puya und Heiko statt.
 
 Als installierte Betriebssysteme wurden Windows 11 Professional, MacOS X und Ubuntu-Linux in den jeweils aktuellen Versionen eingesetzt.
 
-Zur Entwicklung wurde eine Python-, MySQL-, HTML-, PHP- und CSS-fähige Entwicklungsplattform benötigt, verwendet wurde Microsoft Visual Studio Code in der aktuellsten Verison.
+Zur Entwicklung wurde eine Python-, MySQL-, HTML-, PHP- und CSS-fähige Entwicklungsplattform benötigt, verwendet wurde [Microsoft Visual Studio Code][6] in der aktuellsten Verison.
 
-Bei der verwendeten Software und den Plugins sowie Frameworks wurde darauf geachtet, dass diese
-kostenlos zur Verfügung stehen bzw. sowieso schon lizenziert sind oder eingesetzt werden.
-So entstanden den Umschulenden durch die Entwicklung der Software keine zusätzlichen Kosten.
+Bei der verwendeten Software und den Plugins sowie Frameworks wurde darauf geachtet, dass diese kostenlos zur Verfügung stehen bzw. sowieso schon lizenziert sind oder eingesetzt werden.  
+
+So entstehen den Umschulenden durch die Entwicklung der Software keine zusätzlichen Kosten.
 
 ### 3.3 Zielplattformen
 
-Als Zielplattformen wurde Microsoft Windows 11 gewählt, da alle vorhanden PCs in der Bar/dem Restaurant mit Windows 11 als Betriebssystem arbeiten. Die Nutzung der Weboberfläche ist Plattformunabhängig.
+Als Zielplattformen wurde [Microsoft Windows 11][7] gewählt, da alle vorhanden PCs in der Bar/dem Restaurant mit Windows 11 als Betriebssystem arbeiten. Die Nutzung der Weboberfläche ist Plattformunabhängig.
 
-Optional ist eine Umsetzung auf die gängigen weiteren Betriebssysteme wie MacOS, iOS, Linux, Android.
+Optional ist auch eine Umsetzung auf die gängigen weiteren Betriebssysteme wie MacOS, iOS, Linux, Android möglich.
 
-Als Programmiersprachen wurde sich für Python, PHP, HTML, CSS und (My)SQL entschieden, da für dies Programmiertätigkeiten bereits genug know-how vorhanden bzw. aktuell im Aufbau ist. 
+Als Programmiersprachen wurde sich für Python, PHP, HTML, CSS und (My)SQL entschieden, da für dies Programmiertätigkeiten bereits genug know-how vorhanden bzw. aktuell im Aufbau ist.  
 
 Mit den gewählten Programmiersprechen und der MySQL-Datenbank können alle erforderlichen und gewünschten Ziele umgesetzt werden. Erstellt wurde das Projekt als Desktop-App mit der Python 3.12.4 und als Web-App mit PHP 8.20.
 
@@ -233,6 +235,8 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 [3]:<https://de.wikipedia.org/wiki/Objektorientierte_Programmierung>
 [4]:<https://de.wikipedia.org/wiki/Microsoft_Teams>
 [5]:<(https://de.wikipedia.org/wiki/GitHub>
+[6]:<(https://code.visualstudio.com)>
+[7]:<(https://de.wikipedia.org/wiki/Windows_11)>
 
 ### 6.3 Darstellungsverzeichnis
 
@@ -307,3 +311,5 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 [10]:img/dJ_beach_setup.jpg
 [11]:img/bar_restaurant.png
 [12]:img/pap.png
+[20]:<https://www.linkedin.com/in/dr-holger-kramer-74478a179/>
+[21]:<https://www.linkedin.com/in/hfanieng>
