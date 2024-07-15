@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
 
 ![La Mediterranea][10]
