@@ -277,6 +277,68 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 #### 6.7.3 UML-Anwendungsfalliagramm
 
+```mermaid
+classDiagram
+    class Restaurant {
+        +String name
+        +String address
+        +String[] openDays
+        +String[] openTimes
+
+        +void addTable(Table table)
+        +void addEmployee(Employee employee)
+        +void makeReservation(Reservation reservation)
+        +void cancelReservation(Reservation reservation)
+    }
+
+    class Table {
+        +int tableNumber
+        +int capacity
+
+        +boolean isAvailable(String date, String time)
+        +void reserve(String date, String time)
+        +void release(String date, String time)
+    }
+
+    class Employee {
+        +String name
+        +String role
+
+        +void performDuty()
+    }
+
+    class Manager {
+        +void manageRestaurant()
+    }
+
+    class Cook {
+        +void prepareMeal()
+    }
+
+    class ServiceStaff {
+        +void serveCustomer()
+    }
+
+    class Reservation {
+        +String customerName
+        +String date
+        +String time
+        +int numberOfPeople
+        +Table table
+
+        +void confirm()
+        +void cancel()
+    }
+
+    Restaurant "1" -- "4" Table : has
+    Restaurant "1" -- "4" Employee : employs
+    Employee <|-- Manager
+    Employee <|-- Chef
+    Employee <|-- ServiceStaff
+    Reservation "1" -- "1" Table : reservedFor
+    Restaurant "1" -- "many" Reservation : manages
+```
+
 #### 6.7.4 UML-Klassendiagramm
 
 ### 6.8 Quellcode
