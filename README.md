@@ -275,7 +275,11 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 ![PAP][12]
 
-#### 6.7.3 UML-Anwendungsfalliagramm
+### 6.7.3 UML-Anwedungsfalldiagramm
+
+![Use Case][13]
+
+#### 6.7.4 UML-Klassendiagramm
 
 ```mermaid
 classDiagram
@@ -333,13 +337,13 @@ classDiagram
     Restaurant "1" -- "4" Table : has
     Restaurant "1" -- "4" Employee : employs
     Employee <|-- Manager
-    Employee <|-- Chef
+    Employee <|-- Cook
     Employee <|-- ServiceStaff
     Reservation "1" -- "1" Table : reservedFor
     Restaurant "1" -- "many" Reservation : manages
 ```
 
-#### 6.7.4 UML-Klassendiagramm
+
 
 ### 6.8 Quellcode
 
@@ -379,5 +383,6 @@ classDiagram
 [10]:img/dJ_beach_setup.jpg
 [11]:img/bar_restaurant.png
 [12]:img/pap.png
+[13]:img/use_case.png
 [20]:<https://www.linkedin.com/in/dr-holger-kramer-74478a179/>
 [21]:<https://www.linkedin.com/in/hfanieng>
