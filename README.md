@@ -1,8 +1,21 @@
+---
+marp: true
+---
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
+
+---
+
+## [La Mediterranea][10] ist ein Restaurant und Bar am Strand von Es Pujols auf Formentera
 
 ![La Mediterranea][10]
 
-Prüfungsbewerber : Hiba, Irina, Puya und [Heiko Fanieng][21]
+---
+
+## Prüfungsbewerber
+
+Hiba, Irina, Puya und [Heiko Fanieng][21]  
+
+---
 
 ## 1. Projekteinführung
 
@@ -10,17 +23,23 @@ Die folgende Projektdokumentation wurde als virtuelles Laborprojekt erstellt, we
 
 Inititator und Projektbegleiter ist unser Dozent [Dr. Holger Kramer][20] - welcher uns im [Projektmanagement][1], in der Programmierung von [Python][2] und der [objektorientierten Programmierung][3] unterrichtet.
 
+---
+
 ### 1.1 Projektumfeld
 
 Unser multilinguales und multikulturelles Entwicklerteam aus 4 Nationen ist spezialisiert auf individuelle Kundenlösungen in der Gastronomie und der Veranstaltungstechnik.  
 
 Im Angebot befinden sich Lösungen für Bars, Restaurants, Diskotheken und Veranstaltungen wie Konzerte oder DJ-Events.
 
+---
+
 ### 1.2 Projektumsetzung
 
 Die Projektumsetzung findet online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
 
 Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
+
+---
 
 ### 1.3 Projektziel
 
@@ -29,6 +48,8 @@ Es soll eine Anwendung zur Verfügung gestellt werden, in welcher sich Kunden au
 Zusätzlich sollen die Reservierungen über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
 
 Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und entsprechender Auswahl- und Bearbeitungsmöglichkeit (Web und App) für die Benutzer.
+
+---
 
 ## 2. Projektanalyse
 
@@ -43,6 +64,8 @@ Hierdurch ist die Bearbeitung der Reservierungen nur an diesem zentralen Platz m
 Mit einem Online-Reservierungssystem soll eine Terminerfassung bzw. Vergabe sowohl von Kunden als auch Mitarbeitenden dezentral möglich sein.  
 
 Hierzu soll die Software die Möglichkeit bieten, verfügbare Plätze auswählen zu können diese sowoh zu reservieren als auch zu stornieren.
+
+---
 
 ### 2.3. Projektbegründung
 
@@ -171,9 +194,9 @@ Da die Software von den Autoren bereits während der Entwicklung regelmäßig ge
 fällt dieser Punkt recht knapp aus. Gründe für Abstürze wurden während der Entwicklungszeit fortwährend behoben,
 während der Testphase liefen sowohl die Windows-Desktop-App als auch die Web-App recht stabil.
 
-...
+---
 
-## 5. Abschuluss
+## 5. Abschluss
 
 ### 5.1 Soll-/Ist-Vergleich
 
@@ -181,6 +204,8 @@ Die Projektdauer konnte im Großen und Ganzen eingehalten werden, im Detail der 
 erwartet Abweichungen. Dadurch, dass während des Entwicklungsprozesses Material aus den Aufgaben im Unterreicht
 verwendet werden konnte und bereits viel getestet wurde, verschob sich der anteilige Zeitbedarf von der reinen
 Testphase hin zur Entwicklungs- und Dokomentationsphase.
+
+---
 
 ### 5.2 Kosten- und Nutzenanalyse
 
