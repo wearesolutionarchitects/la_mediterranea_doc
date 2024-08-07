@@ -18,7 +18,7 @@ Im Angebot befinden sich Lösungen für Bars, Restaurants, Diskotheken und Veran
 
 ### 1.2 Projektumsetzung
 
-Die Projektumsetzung finde online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
+Die Projektumsetzung findet online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
 
 Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
 
@@ -26,7 +26,7 @@ Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba
 
 Es soll eine Anwendung zur Verfügung gestellt werden, in welcher sich Kunden auf einfache Weise über die Website des Auftraggebers einen Tisch im Restaurantsbereich reservieren können.  
 
-Zusätzlich sollen die Reservierung über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
+Zusätzlich sollen die Reservierungen über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
 
 Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und entsprechender Auswahl- und Bearbeitungsmöglichkeit (Web und App) für die Benutzer.
 
@@ -34,7 +34,7 @@ Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und 
 
 ### 2.1 Ist-Analyse
 
-Die Reserverierungen werden analog (per Telefon/Im Restaurant) entgegengenommen und auf einem Papierkalender im Empfangsbereich eingetragen.  
+Die Reserverierungen werden analog (per Telefon/im Restaurant) entgegengenommen und auf einem Papierkalender im Empfangsbereich eingetragen.  
 
 Hierdurch ist die Bearbeitung der Reservierungen nur an diesem zentralen Platz möglich.
 
@@ -55,16 +55,14 @@ Durch die zentrale Speicherung in einer Datenbank können die Daten sowohl gesic
 
 Wichtigste Verbesserungen sind hier die ständige Verfügbarkeit der Reservierungsmöglichkeit, die Zeit- und Aufwandseinsparung bei den Mitarbeitenden und eine Sicherung der Reservierungsdaten.  
 
-Die gute Kundenbindung soll verbessert werden und neue Kundinnen
-und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM
+Die gute Kundenbindung soll verbessert werden und neue Kundinnen und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM
 entwickelt werden.
 
 ### 2.4. "make or buy"-Entscheidung
 
 Bei diesem Projekt handelt es sich um eine Individuallösung. Nachdem diverse Tools und Programme zum Reservieren getestet und verglichen wurden, wurde sich aus wirtschaftlichen und individuellen Gründen für eine Eigenentwicklung entschieden.  
 
-Die getesteten Tools entsprachen nicht den Vorstellungen an die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht waren und wären daher auch finanziell
-gesehen nicht sinnvoll gewesen.  
+Die getesteten Tools entsprachen nicht den Vorstellungen an die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht waren und wären daher auch finanziell gesehen nicht sinnvoll gewesen.  
 
 Ein großer Vorteil ist hierbei auch die individuell anpassbare Schnittstelle zur internen MySQL-Datenbank, welche bereits die Inhalte für die Website ausliefert.
 
@@ -93,7 +91,7 @@ Die Projektumsetzung findet online unter Nutzung von Microsoft Teams und GitHub 
 
 Als installierte Betriebssysteme wurden Windows 11 Professional, MacOS X und Ubuntu-Linux in den jeweils aktuellen Versionen eingesetzt.
 
-Zur Entwicklung wurde eine Python-, MySQL-, HTML-, PHP- und CSS-fähige Entwicklungsplattform benötigt, verwendet wurde [Microsoft Visual Studio Code][6] in der aktuellsten Verison.
+Zur Entwicklung wurde eine Python-, MySQL-, HTML-, PHP- und CSS-fähige Entwicklungsplattform benötigt, verwendet wurde [Microsoft Visual Studio Code][6] in der aktuellsten Version.
 
 Bei der verwendeten Software und den Plugins sowie Frameworks wurde darauf geachtet, dass diese kostenlos zur Verfügung stehen bzw. sowieso schon lizenziert sind oder eingesetzt werden.  
 
@@ -107,7 +105,7 @@ Optional ist auch eine Umsetzung auf die gängigen weiteren Betriebssysteme wie 
 
 Als Programmiersprachen wurde sich für Python, PHP, HTML, CSS und (My)SQL entschieden, da für dies Programmiertätigkeiten bereits genug know-how vorhanden bzw. aktuell im Aufbau ist.  
 
-Mit den gewählten Programmiersprechen und der MySQL-Datenbank können alle erforderlichen und gewünschten Ziele umgesetzt werden. Erstellt wurde das Projekt als Desktop-App mit der Python 3.12.4 und als Web-App mit PHP 8.20.
+Mit den gewählten Programmiersprechen und der MySQL-Datenbank können alle erforderlichen und gewünschten Ziele umgesetzt werden. Erstellt wurde das Projekt als Desktop-App mit der Python Version 3.12.4 und als Web-App mit PHP Version 8.20.
 
 ### 3.4 Architekturdesign
 
