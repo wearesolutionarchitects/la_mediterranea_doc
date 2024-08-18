@@ -1,14 +1,10 @@
 ---
 marp: true
-<<<<<<< HEAD
 theme: default
 size: A4
 paginate: true
 ---
 
-=======
----
->>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
 
 ---
@@ -21,7 +17,6 @@ paginate: true
 
 ## Prüfungsbewerber
 
-<<<<<<< HEAD
 Hiba Al Anssari, Irina Zittlau, Puya Khandany und [Heiko Fanieng][21]
 
 ---
@@ -91,9 +86,6 @@ Hiba Al Anssari, Irina Zittlau, Puya Khandany und [Heiko Fanieng][21]
     - [6.7.4 UML-Klassendiagramm](#674-uml-klassendiagramm)
   - [6.8 Quellcode](#68-quellcode)
     - [6.8.1 PHP-Script zum Abruf der Cocktails](#681-php-script-zum-abruf-der-cocktails)
-=======
-Hiba, Irina, Puya und [Heiko Fanieng][21]  
->>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 
 ---
 
@@ -115,10 +107,6 @@ Im Angebot befinden sich Lösungen für Bars, Restaurants, Diskotheken und Veran
 ### 1.2 Projektumsetzung
 
 Die Projektumsetzung findet online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
-<<<<<<< HEAD
-=======
-
->>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
 
 ---
@@ -126,13 +114,7 @@ Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba
 ### 1.3 Projektziel
 
 Es soll eine Anwendung zur Verfügung gestellt werden, in welcher sich Kunden auf einfache Weise über die Website des Auftraggebers einen Tisch im Restaurantsbereich reservieren können.  
-<<<<<<< HEAD
 Zusätzlich sollen die Reservierung über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
-=======
-
-Zusätzlich sollen die Reservierungen über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
-
->>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und entsprechender Auswahl- und Bearbeitungsmöglichkeit (Web und App) für die Benutzer.
 
 ---
