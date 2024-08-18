@@ -1,8 +1,89 @@
+---
+marp: true
+theme: default
+size: A4
+paginate: true
+---
+
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
 
 ![La Mediterranea][10]
 
-Prüfungsbewerber : Hiba, Irina, Puya und [Heiko Fanieng][21]
+---
+
+## Prüfungsbewerber
+
+Hiba Al Anssari, Irina Zittlau, Puya Khandany und [Heiko Fanieng][21]
+
+---
+
+## Inhaltsverzeichnis
+
+- [La Mediterranea - Entwicklung eines Online-Tischreservierungssystems](#la-mediterranea---entwicklung-eines-online-tischreservierungssystems)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [1. Projekteinführung](#1-projekteinführung)
+    - [1.1 Projektumfeld](#11-projektumfeld)
+    - [1.2 Projektumsetzung](#12-projektumsetzung)
+    - [1.3 Projektziel](#13-projektziel)
+
+---
+
+- [2. Projektanalyse](#2-projektanalyse)
+  - [2.1 Ist-Analyse](#21-ist-analyse)
+  - [2.2 Soll-Analyse](#22-soll-analyse)
+  - [2.3. Projektbegründung](#23-projektbegründung)
+  - [2.4. "make or buy"-Entscheidung](#24-make-or-buy-entscheidung)
+
+---
+
+- [3 Projektplanung](#3-projektplanung)
+  - [3.1. Projektphasen](#31-projektphasen)
+  - [3.2 Ressourcenplanung](#32-ressourcenplanung)
+  - [3.3 Zielplattformen](#33-zielplattformen)
+  - [3.4 Architekturdesign](#34-architekturdesign)
+  
+---
+
+- [4. Projektentwicklung](#4-projektentwicklung)
+  - [4.1 Datenerhebung](#41-datenerhebung)
+  - [4.1.1 Datenermittlung](#411-datenermittlung)
+  - [4.1.2 Datenbankanalyse](#412-datenbankanalyse)
+    - [4.2 Datenbankentwicklung](#42-datenbankentwicklung)
+    - [4.3 SQL Abfrage konzipieren und als PHP-Script in besthehnde Website integrieren](#43-sql-abfrage-konzipieren-und-als-php-script-in-besthehnde-website-integrieren)
+    - [4.4 Anwendungsentwicklung mit Python](#44-anwendungsentwicklung-mit-python)
+      - [4.4.1 Modellierung, Klassen etc. erstellen](#441-modellierung-klassen-etc-erstellen)
+      - [4.4.2 Entwurf der Benutzeroberfläche erstellen](#442-entwurf-der-benutzeroberfläche-erstellen)
+      - [4.4.3 Entwicklung der Form und Methoden](#443-entwicklung-der-form-und-methoden)
+      - [4.4.4 Benutzerfreundlichkeit](#444-benutzerfreundlichkeit)
+    - [4.5 Qualitätsmanagement](#45-qualitätsmanagement)
+      - [4.5.1 Testphase](#451-testphase)
+      - [4.5.2 Fehleranalyse / -Korrektur](#452-fehleranalyse---korrektur)
+
+---
+
+- [5. Abschluss](#5-abschluss)
+  - [5.1 Soll-/Ist-Vergleich](#51-soll-ist-vergleich)
+  - [5.2 Kosten- und Nutzenanalyse](#52-kosten--und-nutzenanalyse)
+  - [5.3 Zukunftsausblick](#53-zukunftsausblick)
+
+---
+
+- [6. Anhang](#6-anhang)
+  - [6.1 Glossar](#61-glossar)
+  - [6.2 Literaturverzeichnis](#62-literaturverzeichnis)
+  - [6.3 Darstellungsverzeichnis](#63-darstellungsverzeichnis)
+  - [6.4 Vergleich zwischen Zeitplanung und Zeitbedarf](#64-vergleich-zwischen-zeitplanung-und-zeitbedarf)
+  - [6.5 Vergleich zwischen über Papierkalender verwelteten Reservierung und der mit Softwarelösung bearbeiteten Reservierungen](#65-vergleich-zwischen-über-papierkalender-verwelteten-reservierung-und-der-mit-softwarelösung-bearbeiteten-reservierungen)
+  - [6.6 Benutzerdokumentation](#66-benutzerdokumentation)
+  - [6.7 ER- und UML-Diagramme](#67-er--und-uml-diagramme)
+    - [6.7.1 Entity Relationship Model](#671-entity-relationship-model)
+    - [6.7.2 Programmablaufplan](#672-programmablaufplan)
+    - [6.7.3 UML-Anwedungsfalldiagramm](#673-uml-anwedungsfalldiagramm)
+    - [6.7.4 UML-Klassendiagramm](#674-uml-klassendiagramm)
+  - [6.8 Quellcode](#68-quellcode)
+    - [6.8.1 PHP-Script zum Abruf der Cocktails](#681-php-script-zum-abruf-der-cocktails)
+
+---
 
 ## 1. Projekteinführung
 
@@ -10,25 +91,25 @@ Die folgende Projektdokumentation wurde als virtuelles Laborprojekt erstellt, we
 
 Inititator und Projektbegleiter ist unser Dozent [Dr. Holger Kramer][20] - welcher uns im [Projektmanagement][1], in der Programmierung von [Python][2] und der [objektorientierten Programmierung][3] unterrichtet.
 
+---
+
 ### 1.1 Projektumfeld
 
 Unser multilinguales und multikulturelles Entwicklerteam aus 4 Nationen ist spezialisiert auf individuelle Kundenlösungen in der Gastronomie und der Veranstaltungstechnik.  
-
 Im Angebot befinden sich Lösungen für Bars, Restaurants, Diskotheken und Veranstaltungen wie Konzerte oder DJ-Events.
 
 ### 1.2 Projektumsetzung
 
-Die Projektumsetzung finde online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
-
+Die Projektumsetzung findet online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
 Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
 
 ### 1.3 Projektziel
 
 Es soll eine Anwendung zur Verfügung gestellt werden, in welcher sich Kunden auf einfache Weise über die Website des Auftraggebers einen Tisch im Restaurantsbereich reservieren können.  
-
 Zusätzlich sollen die Reservierung über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
-
 Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und entsprechender Auswahl- und Bearbeitungsmöglichkeit (Web und App) für die Benutzer.
+
+---
 
 ## 2. Projektanalyse
 
@@ -131,9 +212,9 @@ Die Analyse der Kundenddaten gestalte sich aufwendiger, da diese nur in analoger
 
 ### 4.2 Datenbankentwicklung
 
-* ERM-Model
-* Design
-* Umsetzung
+- ERM-Model
+- Design
+- Umsetzung
 
 ### 4.3 SQL Abfrage konzipieren und als PHP-Script in besthehnde Website integrieren
 
@@ -143,21 +224,21 @@ Für die zu entwickelnde Datenbank sind die vorhandenen HTML-Seiten auf PHP umzu
 
 #### 4.4.1 Modellierung, Klassen etc. erstellen
 
-* UML Diagramme erstellen (Klassendiagramm, Aktivitätsdiagramme, PAP)
+- UML Diagramme erstellen (Klassendiagramm, Aktivitätsdiagramme, PAP)
 
 #### 4.4.2 Entwurf der Benutzeroberfläche erstellen
 
-* GUI unter Benutzung des Moduls Tkinter? erstellen
+- GUI unter Benutzung des Moduls Tkinter? erstellen
 
 #### 4.4.3 Entwicklung der Form und Methoden
 
-* Beim Start der App soll direkt eine Übersicht der aktuellen Reservierungen angezeigt werden
+- Beim Start der App soll direkt eine Übersicht der aktuellen Reservierungen angezeigt werden
 
-* Beim Aufruf der Reservierungs-Seite auf der Website soll eine auf die Kundensicht angepasste Übersicht der Reservierungsmöglichkeiten angezeigt werden.
+- Beim Aufruf der Reservierungs-Seite auf der Website soll eine auf die Kundensicht angepasste Übersicht der Reservierungsmöglichkeiten angezeigt werden.
 
-#### 4.4.? Benutzerfreundlichkeit
+#### 4.4.4 Benutzerfreundlichkeit
 
-* Zum Zecke des besseren Anwenderlebnis mit den Benutzeroberflächen wurde nach Rückmeldung der Anwender noch Verbesserungen an den Eingabemasken vorgenommen.
+- Zum Zwecke des besseren Anwendererlebnis mit der Benutzeroberfläche wurde nach Rückmeldung der Anwender noch Verbesserungen an den Eingabemasken vorgenommen.
 
 ### 4.5 Qualitätsmanagement
 
@@ -175,7 +256,7 @@ während der Testphase liefen sowohl die Windows-Desktop-App als auch die Web-Ap
 
 ...
 
-## 5. Abschuluss
+## 5. Abschluss
 
 ### 5.1 Soll-/Ist-Vergleich
 
@@ -232,17 +313,9 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 ### 6.2 Literaturverzeichnis
 
-[1]:<https://de.wikipedia.org/wiki/Projektmanagement>
-[2]:<https://de.wikipedia.org/wiki/Python>
-[3]:<https://de.wikipedia.org/wiki/Objektorientierte_Programmierung>
-[4]:<https://de.wikipedia.org/wiki/Microsoft_Teams>
-[5]:<(https://de.wikipedia.org/wiki/GitHub>
-[6]:<(https://code.visualstudio.com)>
-[7]:<(https://de.wikipedia.org/wiki/Windows_11)>
-
 ### 6.3 Darstellungsverzeichnis
 
-* Seite 3: Tabelle mit der Zeitplanung der Projektphasen
+- Seite 3: Tabelle mit der Zeitplanung der Projektphasen
 
 ### 6.4 Vergleich zwischen Zeitplanung und Zeitbedarf
 
@@ -343,8 +416,6 @@ classDiagram
     Restaurant "1" -- "many" Reservation : manages
 ```
 
-
-
 ### 6.8 Quellcode
 
 ### 6.8.1 PHP-Script zum Abruf der Cocktails
@@ -380,9 +451,16 @@ classDiagram
 ?>
 ```
 
-[10]:img/dJ_beach_setup.jpg
-[11]:img/bar_restaurant.png
-[12]:img/pap.png
-[13]:img/use_case.png
-[20]:<https://www.linkedin.com/in/dr-holger-kramer-74478a179/>
-[21]:<https://www.linkedin.com/in/hfanieng>
+[1]: https://de.wikipedia.org/wiki/Projektmanagement
+[10]: img/dJ_beach_setup.jpg
+[11]: img/bar_restaurant.png
+[12]: img/pap.png
+[13]: img/use_case.png
+[2]: https://de.wikipedia.org/wiki/Python
+[20]: https://www.linkedin.com/in/dr-holger-kramer-74478a179/
+[21]: https://www.linkedin.com/in/hfanieng
+[3]: https://de.wikipedia.org/wiki/Objektorientierte_Programmierung
+[4]: https://de.wikipedia.org/wiki/Microsoft_Teams
+[5]: https://de.wikipedia.org/wiki/GitHub
+[6]: https://code.visualstudio.com
+[7]: https://de.wikipedia.org/wiki/Windows_11
