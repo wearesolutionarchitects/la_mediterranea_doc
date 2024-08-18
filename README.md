@@ -9,7 +9,7 @@ paginate: true
 
 ---
 
-## [La Mediterranea][10] ist ein Restaurant und Bar am Strand von Es Pujols auf Formentera
+## [La Mediterranea][10] ist ein Restaurant und eine Bar am Strand von Es Pujols auf Formentera
 
 ![La Mediterranea][10]
 
@@ -146,16 +146,19 @@ Durch die zentrale Speicherung in einer Datenbank können die Daten sowohl gesic
 
 Wichtigste Verbesserungen sind hier die ständige Verfügbarkeit der Reservierungsmöglichkeit, die Zeit- und Aufwandseinsparung bei den Mitarbeitenden und eine Sicherung der Reservierungsdaten.  
 
-Die gute Kundenbindung soll verbessert werden und neue Kundinnen und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM
-entwickelt werden.
+Die gute Kundenbindung soll verbessert werden und neue Kundinnen und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM entwickelt werden.
+
+---
 
 ### 2.4. "make or buy"-Entscheidung
 
-Bei diesem Projekt handelt es sich um eine Individuallösung. Nachdem diverse Tools und Programme zum Reservieren getestet und verglichen wurden, wurde sich aus wirtschaftlichen und individuellen Gründen für eine Eigenentwicklung entschieden.  
+Bei diesem Projekt handelt es sich um eine Individuallösung. Nachdem diverse Tools und Programme zum Reservieren getestet und verglichen wurden, ist aus wirtschaftlichen und individuellen Gründen die Entscheidung für eine Eigenentwicklung gefallen.  
 
-Die getesteten Tools entsprachen nicht den Vorstellungen an die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht waren und wären daher auch finanziell gesehen nicht sinnvoll gewesen.  
+Die getesteten Tools entsprachen nicht den Vorstellungen an die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht sind und wären daher auch finanziell gesehen nicht sinnvoll gewesen.  
 
 Ein großer Vorteil ist hierbei auch die individuell anpassbare Schnittstelle zur internen MySQL-Datenbank, welche bereits die Inhalte für die Website ausliefert.
+
+---
 
 ## 3 Projektplanung
 
@@ -176,9 +179,11 @@ Die Stunden werden über diesen Zeitraum verteilt, da "im Tagesgeschäft" mehrer
 |Projektdokumentation|20|
 |__Gesamtdauer__|__320__|
 
+---
+
 ### 3.2 Ressourcenplanung
 
-Die Projektumsetzung findet online unter Nutzung von Microsoft Teams und GitHub sowie den Endgeräten der Umschulenden Hiba, Irina, Puya und Heiko statt.
+Die Projektumsetzung findet online unter Nutzung von Microsoft Teams und GitHub sowie den Endgeräten der Umschülerinnen und Umschüler Hiba, Irina, Puya und Heiko statt.
 
 Als installierte Betriebssysteme wurden Windows 11 Professional, MacOS X und Ubuntu-Linux in den jeweils aktuellen Versionen eingesetzt.
 
@@ -186,7 +191,9 @@ Zur Entwicklung wurde eine Python-, MySQL-, HTML-, PHP- und CSS-fähige Entwickl
 
 Bei der verwendeten Software und den Plugins sowie Frameworks wurde darauf geachtet, dass diese kostenlos zur Verfügung stehen bzw. sowieso schon lizenziert sind oder eingesetzt werden.  
 
-So entstehen den Umschulenden durch die Entwicklung der Software keine zusätzlichen Kosten.
+So entstehen dem Projekt-Team durch die Entwicklung der neuen Software keine zusätzlichen Kosten.
+
+---
 
 ### 3.3 Zielplattformen
 
@@ -198,21 +205,25 @@ Als Programmiersprachen wurde sich für Python, PHP, HTML, CSS und (My)SQL entsc
 
 Mit den gewählten Programmiersprechen und der MySQL-Datenbank können alle erforderlichen und gewünschten Ziele umgesetzt werden. Erstellt wurde das Projekt als Desktop-App mit der Python Version 3.12.4 und als Web-App mit PHP Version 8.20.
 
+---
+
 ### 3.4 Architekturdesign
 
 Das Projekt basiert auf dem Architekturprinzip MVC (Model-View-Controller). Die Software lässt sich gemäß diesem Muster in die drei Bereiche Model (Datenaufbereitung), View (Präsentation) sowie Controller (Anwendungssteuerung) unterteilen. Aus dieser Trennung ergeben sich einige Vorteile wie bessere Wartbarkeit, Lesbarkeit und Erweiterbarkeit. Da die Logik von der Darstellung getrennt ist, kann man etwa die Oberfläche leicht austauschen, ohne tiefer in den logischen Bereich der Software vordringen zu müssen.
+
+---
 
 ## 4. Projektentwicklung
 
 ...
 
-### 4.1 Datenerhebung
+---
 
-...
+### 4.1 Datenerhebung
 
 #### 4.1.1 Datenermittlung
 
-Auf Basis der vorliegenden analogen Daten aus alten Kalendern wurde sich ein grober Überblick über die bisher vorliegenden Kundendaten verschafft. Bisher liegen nur Daten wie Vor- und Nachname aus der Vergangenheit vor.
+Auf Basis der vorliegenden analogen Daten aus alten Kalendern wurde sich ein grober Überblick über die bisher vorliegenden Kundendaten verschafft. Bisher liegen nur Daten wie Vor- und Nachname und Telefon-Nummern aus der Vergangenheit vor.
 
 #### 4.1.2 Datenbankanalyse
 
@@ -277,21 +288,17 @@ Testphase hin zur Entwicklungs- und Dokomentationsphase.
 
 ### 5.2 Kosten- und Nutzenanalyse
 
-Eine Kosten- und Nutzenrechnung sowie eine Amortisationsrechnung können in diesem Fall nicht erstellt
-werden. Kosten für das Projekt werden mit den investierten Arbeitsstunden außerhalb der normalen
-Umschulungszeiten in Relation gesetzt und Preise werden nicht kalkuliert, da es sich um ein reine
-Labor-Projekt handelt. Auch dadurch, dass man den Mehrwert im Vergleich zur vorhergehenden Arbeitsweise
-nicht direkt in Zahlen gemessen werden kann, wird auf diese Rechnungen verzichtet.
+Eine Kosten- und Nutzenrechnung sowie eine Amortisationsrechnung können in diesem Fall nicht erstellt werden. Kosten für das Projekt werden mit den investierten Arbeitsstunden außerhalb der normalen Umschulungszeiten in Relation gesetzt und Preise werden nicht kalkuliert, da es sich um ein reines Labor-Projekt handelt. Auch dadurch, dass man den Mehrwert im Vergleich zur vorhergehenden Arbeitsweise nicht direkt in Zahlen gemessen werden kann, wird auf diese Rechnungen verzichtet.
 
-Der Nutzen des Online-Reservierungssystem liegt ganz in einer höheren Verfügbarkeit (24h/7d) für Kundinnen,
-Kunden und Mitarbeitende.
+Der Nutzen des Online-Reservierungssystem liegt ganz in einer höheren Verfügbarkeit (24h/7d) für Kundinnen, Kunden und Mitarbeitende.
+
+---
 
 ### 5.3 Zukunftsausblick
 
-Das Online-Reservierungssystem ist die Baisis für die Digitalierung, hieraus kann zukünftig eine Kundendatenbank
-entwickelt werden um die Kunden z. B. durch Einwilligung zu einem Newsletter über aktuelle Entwicklungen (geänderte
-Öffnungszeiten, aktualisierte Speisekarten und Angebote) zu informieren. Für das Projekt-Team ist damit die Basis
-als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
+Das Online-Reservierungssystem ist die Basis für die Digitalierung, hieraus kann zukünftig eine Kundendatenbank entwickelt werden um die Kunden z. B. durch Einwilligung zu einem Newsletter über aktuelle Entwicklungen (geänderte Öffnungszeiten, aktualisierte Speisekarten und Angebote) zu informieren. Für das Projekt-Team ist damit die Basis als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
+
+---
 
 ## 6. Anhang
 
