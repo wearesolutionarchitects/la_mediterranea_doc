@@ -1,11 +1,19 @@
 ---
 marp: true
+<<<<<<< HEAD
 theme: default
 size: A4
 paginate: true
 ---
 
+=======
+---
+>>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
+
+---
+
+## [La Mediterranea][10] ist ein Restaurant und Bar am Strand von Es Pujols auf Formentera
 
 ![La Mediterranea][10]
 
@@ -13,6 +21,7 @@ paginate: true
 
 ## Prüfungsbewerber
 
+<<<<<<< HEAD
 Hiba Al Anssari, Irina Zittlau, Puya Khandany und [Heiko Fanieng][21]
 
 ---
@@ -82,6 +91,9 @@ Hiba Al Anssari, Irina Zittlau, Puya Khandany und [Heiko Fanieng][21]
     - [6.7.4 UML-Klassendiagramm](#674-uml-klassendiagramm)
   - [6.8 Quellcode](#68-quellcode)
     - [6.8.1 PHP-Script zum Abruf der Cocktails](#681-php-script-zum-abruf-der-cocktails)
+=======
+Hiba, Irina, Puya und [Heiko Fanieng][21]  
+>>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 
 ---
 
@@ -98,15 +110,29 @@ Inititator und Projektbegleiter ist unser Dozent [Dr. Holger Kramer][20] - welch
 Unser multilinguales und multikulturelles Entwicklerteam aus 4 Nationen ist spezialisiert auf individuelle Kundenlösungen in der Gastronomie und der Veranstaltungstechnik.  
 Im Angebot befinden sich Lösungen für Bars, Restaurants, Diskotheken und Veranstaltungen wie Konzerte oder DJ-Events.
 
+---
+
 ### 1.2 Projektumsetzung
 
 Die Projektumsetzung findet online statt, die Projektteilnehmer nutzen [Microsoft Teams][4] und [GitHub][5] zur gemeinsamen Durchführung der Programmiertätigkeiten.  
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 Sämtliche Programmiertätigkeiten sowie Tests und Anpassungen wurden durch Hiba, Irina, Puya und Heiko durchgeführt.
+
+---
 
 ### 1.3 Projektziel
 
 Es soll eine Anwendung zur Verfügung gestellt werden, in welcher sich Kunden auf einfache Weise über die Website des Auftraggebers einen Tisch im Restaurantsbereich reservieren können.  
+<<<<<<< HEAD
 Zusätzlich sollen die Reservierung über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
+=======
+
+Zusätzlich sollen die Reservierungen über eine App auf dem Restaurant-Desktop-PC über entsprechende Masken bearbeitet werden können.  
+
+>>>>>>> 5f363ba5d5ea10948088cd96879306db656725d3
 Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und entsprechender Auswahl- und Bearbeitungsmöglichkeit (Web und App) für die Benutzer.
 
 ---
@@ -115,7 +141,7 @@ Dieses Ziel erfordert eine neu entwickelte Software mit Benutzeroberfläche und 
 
 ### 2.1 Ist-Analyse
 
-Die Reserverierungen werden analog (per Telefon/Im Restaurant) entgegengenommen und auf einem Papierkalender im Empfangsbereich eingetragen.  
+Die Reserverierungen werden analog (per Telefon/im Restaurant) entgegengenommen und auf einem Papierkalender im Empfangsbereich eingetragen.  
 
 Hierdurch ist die Bearbeitung der Reservierungen nur an diesem zentralen Platz möglich.
 
@@ -124,6 +150,8 @@ Hierdurch ist die Bearbeitung der Reservierungen nur an diesem zentralen Platz m
 Mit einem Online-Reservierungssystem soll eine Terminerfassung bzw. Vergabe sowohl von Kunden als auch Mitarbeitenden dezentral möglich sein.  
 
 Hierzu soll die Software die Möglichkeit bieten, verfügbare Plätze auswählen zu können diese sowoh zu reservieren als auch zu stornieren.
+
+---
 
 ### 2.3. Projektbegründung
 
@@ -136,16 +164,14 @@ Durch die zentrale Speicherung in einer Datenbank können die Daten sowohl gesic
 
 Wichtigste Verbesserungen sind hier die ständige Verfügbarkeit der Reservierungsmöglichkeit, die Zeit- und Aufwandseinsparung bei den Mitarbeitenden und eine Sicherung der Reservierungsdaten.  
 
-Die gute Kundenbindung soll verbessert werden und neue Kundinnen
-und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM
+Die gute Kundenbindung soll verbessert werden und neue Kundinnen und Kunden gewonnen werden. Anhand der Daten kann zukünftig ein CRM
 entwickelt werden.
 
 ### 2.4. "make or buy"-Entscheidung
 
 Bei diesem Projekt handelt es sich um eine Individuallösung. Nachdem diverse Tools und Programme zum Reservieren getestet und verglichen wurden, wurde sich aus wirtschaftlichen und individuellen Gründen für eine Eigenentwicklung entschieden.  
 
-Die getesteten Tools entsprachen nicht den Vorstellungen an die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht waren und wären daher auch finanziell
-gesehen nicht sinnvoll gewesen.  
+Die getesteten Tools entsprachen nicht den Vorstellungen an die Anpassbarkeit und Auswertungsmöglichkeiten, welche gewünscht waren und wären daher auch finanziell gesehen nicht sinnvoll gewesen.  
 
 Ein großer Vorteil ist hierbei auch die individuell anpassbare Schnittstelle zur internen MySQL-Datenbank, welche bereits die Inhalte für die Website ausliefert.
 
@@ -174,7 +200,7 @@ Die Projektumsetzung findet online unter Nutzung von Microsoft Teams und GitHub 
 
 Als installierte Betriebssysteme wurden Windows 11 Professional, MacOS X und Ubuntu-Linux in den jeweils aktuellen Versionen eingesetzt.
 
-Zur Entwicklung wurde eine Python-, MySQL-, HTML-, PHP- und CSS-fähige Entwicklungsplattform benötigt, verwendet wurde [Microsoft Visual Studio Code][6] in der aktuellsten Verison.
+Zur Entwicklung wurde eine Python-, MySQL-, HTML-, PHP- und CSS-fähige Entwicklungsplattform benötigt, verwendet wurde [Microsoft Visual Studio Code][6] in der aktuellsten Version.
 
 Bei der verwendeten Software und den Plugins sowie Frameworks wurde darauf geachtet, dass diese kostenlos zur Verfügung stehen bzw. sowieso schon lizenziert sind oder eingesetzt werden.  
 
@@ -188,7 +214,7 @@ Optional ist auch eine Umsetzung auf die gängigen weiteren Betriebssysteme wie 
 
 Als Programmiersprachen wurde sich für Python, PHP, HTML, CSS und (My)SQL entschieden, da für dies Programmiertätigkeiten bereits genug know-how vorhanden bzw. aktuell im Aufbau ist.  
 
-Mit den gewählten Programmiersprechen und der MySQL-Datenbank können alle erforderlichen und gewünschten Ziele umgesetzt werden. Erstellt wurde das Projekt als Desktop-App mit der Python 3.12.4 und als Web-App mit PHP 8.20.
+Mit den gewählten Programmiersprechen und der MySQL-Datenbank können alle erforderlichen und gewünschten Ziele umgesetzt werden. Erstellt wurde das Projekt als Desktop-App mit der Python Version 3.12.4 und als Web-App mit PHP Version 8.20.
 
 ### 3.4 Architekturdesign
 
@@ -254,7 +280,7 @@ Da die Software von den Autoren bereits während der Entwicklung regelmäßig ge
 fällt dieser Punkt recht knapp aus. Gründe für Abstürze wurden während der Entwicklungszeit fortwährend behoben,
 während der Testphase liefen sowohl die Windows-Desktop-App als auch die Web-App recht stabil.
 
-...
+---
 
 ## 5. Abschluss
 
@@ -264,6 +290,8 @@ Die Projektdauer konnte im Großen und Ganzen eingehalten werden, im Detail der 
 erwartet Abweichungen. Dadurch, dass während des Entwicklungsprozesses Material aus den Aufgaben im Unterreicht
 verwendet werden konnte und bereits viel getestet wurde, verschob sich der anteilige Zeitbedarf von der reinen
 Testphase hin zur Entwicklungs- und Dokomentationsphase.
+
+---
 
 ### 5.2 Kosten- und Nutzenanalyse
 
