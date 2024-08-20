@@ -298,7 +298,7 @@ als "Blaupause" für die angestrebte IHK-Abschlussprüfung geschaffen.
 
 ![PAP][12]
 
-### 6.7.3 UML-Anwedungsfalldiagramm
+#### 6.7.3 UML-Anwedungsfalldiagramm
 
 ![Use Case][13]
 
