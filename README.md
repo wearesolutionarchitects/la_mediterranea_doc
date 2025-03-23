@@ -1,9 +1,3 @@
----
-marp: true
-theme: default
-size: A4
-paginate: true
----
 
 # La Mediterranea - Entwicklung eines Online-Tischreservierungssystems
 
@@ -17,7 +11,11 @@ paginate: true
 
 ## Prüfungsbewerber
 
-Hiba Al Anssari, Irina Zittlau, Puya Khandany und [Heiko Fanieng][21]
+Hiba Al Anssari, Katrin Kraus, Puya Khandany und [Heiko Fanieng][21]
+
+---
+
+![Aktivität](https://repobeats.axiom.co/api/embed/c20c029f16a5afbbb341fdaf43def03480d171c5.svg "Repobeats analytics image")
 
 ---
 
